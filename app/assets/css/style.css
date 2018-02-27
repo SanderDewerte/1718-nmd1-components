@@ -8,4 +8,10 @@ body{
     border: 1px solid #f60;
     background: #6f0;
     padding: 1%;
+    text-decoration: none;
+}
+
+.btn:hover{
+    border-color: #6f0;
+    background: #f60;
 }
