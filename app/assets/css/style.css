@@ -1,0 +1,11 @@
+body{
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    border: 1px solid #f60;
+    background: #6f0;
+    padding: 1%;
+}
