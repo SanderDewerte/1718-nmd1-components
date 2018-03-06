@@ -4,6 +4,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: lighter;
+}
+
 .btn{
     border: 1px solid rgba(56, 103, 214,1.0);
     background: rgba(69, 170, 242,1.0);
@@ -13,14 +20,41 @@ body{
     color: white;
 }
 
+.btn:hover{
+    transition: .4s ease-in;
+}
+
 .btn--primary{
     border: 1px solid rgba(56, 103, 214,1.0);
     background: rgba(69, 170, 242,1.0);
-    
 }
 
-.btn:hover{
+.btn--secundary{
+    border: 1px solid rgba(250, 130, 49,1.0);
+    background: rgba(253, 150, 68,1.0);
+}
+
+.btn--tertiary{
+    border: 1px solid rgba(235, 59, 90,1.0);
+    background: rgba(252, 92, 101,1.0);
+}
+
+.btn--primary:hover{
     border-color: rgba(69, 170, 242,1.0);
     background: rgba(56, 103, 214,1.0);
 }
 
+.btn--secundary:hover{
+    border-color: rgba(253, 150, 68,1.0);
+    background: rgba(250, 130, 49,1.0);
+}
+
+.btn--tertiary:hover{
+    border-color: rgba(252, 92, 101,1.0);
+    background: rgba(235, 59, 90,1.0);
+}
+
+div{
+    margin: 0 auto;
+    width: 960px;
+}
